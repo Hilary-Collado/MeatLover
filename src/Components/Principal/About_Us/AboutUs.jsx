@@ -1,18 +1,20 @@
 import React from "react";
 // import '../About_Us/_AboutUs.sass';
-import './_AboutUs.sass'; 
+import './_AboutUs.sass';
+import Fondo from '../../Img/FondoAboutUs.jpg';
 
 function AboutUs() {
     return (
         <>
             <section className="aboutUs">
-                <article className="article">
-                    <div className="">
-                       <h1 className="h1">About Us</h1>
+                <div className="container">
+                    <img src={Fondo} alt="" className="fondoAboutUs" />
+                    <div className="article">
+                        <h1 className="h1">About Us</h1>
+                        <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />Nulla perspiciatis aliquam eligendi veritatis natus iste?<br />Ab vero dolore porro voluptatibus laudantium iusto eum harum excepturi.</p>
+                        <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Veritatis consectetur corrupti rerum nam voluptatem quia!</p>
                     </div>
-                    <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />Nulla perspiciatis aliquam eligendi veritatis natus iste?<br />Ab vero dolore porro voluptatibus laudantium iusto eum harum excepturi.</p>
-                    <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Veritatis consectetur corrupti rerum nam voluptatem quia!</p>
-                </article>
+                </div>
             </section>
         </>
     )
