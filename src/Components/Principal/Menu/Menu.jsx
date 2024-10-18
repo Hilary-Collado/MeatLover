@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Menu/_Menu.sass'
+import '../Menu/_Menu.sass';
+import Starters from '../../Img/starters.jpg';
 
 function Menu() {
     return (
@@ -14,7 +15,7 @@ function Menu() {
 
                         <div className="starter">
                             <div className="imagen">
-                                <img src="" alt="" />
+                                <img src={Starters} alt="" className='startersImg' />
                             </div>
 
                             <div className="cont">
