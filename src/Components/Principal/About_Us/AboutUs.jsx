@@ -1,5 +1,4 @@
 import React from "react";
-// import '../About_Us/_AboutUs.sass';
 import './_AboutUs.sass';
 import Fondo from '../../Img/FondoAboutUs.jpg';
 

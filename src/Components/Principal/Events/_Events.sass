@@ -1,45 +1,54 @@
-.event 
-    display: flex
-    justify-content: center
-    flex-direction: column
-    align-items: center 
-    
+.event
+    // display: flex
+    // justify-content: center
+    // flex-direction: column
+    // align-items: center 
+
     // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('src/Components/Img/wine.jpg') no-repeat center center
     // background: url('src/Components/Img/wine.jpg') no-repeat center center
-    background-size: cover
-    height: 100vh
-    width: 100%
+    // background-size: cover
+    // height: 100vh
+    // width: 100%
     color: white
+    .container
+        position: relative
+        display: inline-block
+        margin: 0
+        text-align: center
 
-    .article
-        padding: 10px
-        font-size: 15px
-        margin-right: 32%
+        .fondoEvents
+            width: 50%
+        .article
+            position: absolute
+            top: 8%
+            left: 28%
+            font-size: 15px
 
-        .h2
-            font-size: 28px
-        .texto 
-            .h3
-                text-transform: capitalize
-                font-size: 21px
-            .button
+            .h2
+                font-size: 35px
+            .texto
+                text-align: left
+                .h3
+                    text-transform: capitalize
+                    font-size: 21px
+                .button
+                    font-size: 17px
+                    border: none
+                    padding: 15px 0
+                    background: none
+                    color: white
+                    text-transform: capitalize
+
+        .next
+            position: absolute
+            top: 87%
+            left: 62%
+            font-size: 15px
+
+            .nextEvents
                 font-size: 17px
                 border: none
                 padding: 15px 0
                 background: none
                 color: white 
                 text-transform: capitalize
-
-    .next
-        left: 24%
-        position: relative
-
-        .nextEvents
-            display: flex
-            align-items: center
-            font-size: 17px
-            border: none
-            padding: 15px 0
-            background: none
-            color: white 
-            text-transform: capitalize
