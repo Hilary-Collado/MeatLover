@@ -15,7 +15,7 @@ function Footer(){
                     </div>
                     <div className="address">
                         <p className="location">
-                            <IoLocation/><span>Av. España, 21, Santiago</span><br/>Open:<br/> Lun-Vier 12:00-11:00pm,<br/>Sab-Dom 12:00 - 00:00
+                            <IoLocation/><span className="span">Av. España, 21, Santiago</span><br/>Open:<br/> Lun-Vier 12:00-11:00pm,<br/>Sab-Dom 12:00 - 00:00
                         </p>
                     </div>
                     <div className="socialMedia">

@@ -1,2 +1,35 @@
+@import '../../variables'
+
 .table
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5))
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.5))
+
+
+    .container
+        position: relative // Permite posicionar elementos hijos
+        display: inline-block // Ajusta el tamaño del contenedor a la imagen
+        text-align: center
+
+        .bookTable
+            width: 50%
+
+    .overlay
+        position: absolute // Posiciona el texto sobre la imagen
+        top: 50% // Centra verticalmente
+        left: 50% // Centra horizontalmente
+        transform: translate(-50%, -50%) // Ajusta la posición para centrar
+        color: white // Color del texto
+        text-transform: capitalize
+
+        .h2
+            font-size: 45px
+            font-family: $pacifico
+            font-weight: lighter
+
+        .button
+            padding: 15px 30px
+            background: none
+            color: white
+            border-color: white
+            border-radius: 30px
+            text-transform: capitalize
+            font-size: 20px
