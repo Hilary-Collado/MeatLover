@@ -19,7 +19,7 @@ function Events() {
                         </article>
                     </article>
                     <div className="next">
-                        <button className="nextEvents">next events <BsArrowRight /> </button>
+                        <button className="nextEvents">next events <BsArrowRight className="flecha"/> </button>
 
                     </div>
                 </div>

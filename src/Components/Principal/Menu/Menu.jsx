@@ -2,7 +2,7 @@ import React from 'react';
 import '../Menu/_Menu.sass';
 import Starters from '../../Img/starters.jpg';
 import DishChef from '../../Img/dish.jpg';
-import Steak from '../../Img/steak.jpg';
+import Steak from '../../Img/steakFood.jpg';
 import Seafood from '../../Img/seafood.jpg';
 import Desert from '../../Img/desert.jpg';
 

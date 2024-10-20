@@ -1,14 +1,13 @@
 import React from "react";
 import './_AboutUs.sass';
 import Fondo from '../../Img/FondoAboutUs.jpg';
-import Imagen_SinFondo from '../../Img/aboutUs_fondo.jpg';
 
 function AboutUs() {
     return (
         <>
             <section className="aboutUs">    
                 <div className="container">
-                    {/* <img src={Fondo} alt="" className="fondoAboutUs" /> */}
+                    <img src={Fondo} alt="" className="fondoAboutUs" />
                     {/* <div className="img">
                         <img src={Imagen_SinFondo} alt="" className="fondoAboutUs" />
                     </div> */}

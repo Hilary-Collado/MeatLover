@@ -1,15 +1,9 @@
+@import '../../variables'
+    
 .event
-    // display: flex
-    // justify-content: center
-    // flex-direction: column
-    // align-items: center 
-
-    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('src/Components/Img/wine.jpg') no-repeat center center
-    // background: url('src/Components/Img/wine.jpg') no-repeat center center
-    // background-size: cover
-    // height: 100vh
-    // width: 100%
     color: white
+    font-family: $quicksand 
+
     .container
         position: relative
         display: inline-block
@@ -18,19 +12,23 @@
 
         .fondoEvents
             width: 55%
+
         .article
             position: absolute
             top: 3%
             left: 25%
-            font-size: 15px
+            font-size: 13px
 
             .h1
                 font-size: 30px
+                font-family: $pacifico
+
             .texto
                 text-align: left
                 .h2
                     text-transform: capitalize
                     font-size: 21px
+                    font-family: $pacifico
                 .button
                     font-size: 17px
                     border: none
@@ -38,17 +36,27 @@
                     background: none
                     color: white
                     text-transform: capitalize
+                    font-family: $pacifico
                     
         .next
             position: absolute
             top: 82%
             left: 62%
             font-size: 15px
+            
 
             .nextEvents
+                display: flex
+                align-items: center
                 font-size: 17px
                 border: none
                 padding: 15px 0
                 background: none
                 color: white 
                 text-transform: capitalize
+                font-family: $pacifico
+
+                .flecha
+                    padding-left: 15px
+                    font-size: 20px
+                    color: red
