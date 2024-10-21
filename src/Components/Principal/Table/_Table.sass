@@ -1,27 +1,46 @@
 @import '../../variables'
 
 .table
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.5))
+    // background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.5)), 
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0,0,0,0.5)), url('src/Components/Img/map.jpg') no-repeat center center //fixed
+    background-size: cover
+    padding: 40px 0
+    height: 90vh
+    width: 100%
 
+    // .contenido
+    //     position: relative // Permite posicionar elementos hijos
+    //     display: inline-block // Ajusta el tamaño del contenedor a la imagen
+    //     text-align: center
+
+        // .map
+        //     width: 85%
 
     .container
+        // position: absolute // Permite posicionar elementos hijos
         position: relative // Permite posicionar elementos hijos
         display: inline-block // Ajusta el tamaño del contenedor a la imagen
         text-align: center
+        top: -130px
+        width: 100%
+
+        // top: -40% // Centra verticalmente
+        // left: 0 // Centra horizontalmente
 
         .bookTable
             width: 50%
+            filter: brightness(40%)
 
     .overlay
         position: absolute // Posiciona el texto sobre la imagen
-        top: 50% // Centra verticalmente
+        top: 40% // Centra verticalmente
         left: 50% // Centra horizontalmente
         transform: translate(-50%, -50%) // Ajusta la posición para centrar
         color: white // Color del texto
         text-transform: capitalize
 
         .h2
-            font-size: 45px
+            font-size: 40px
             font-family: $pacifico
             font-weight: lighter
 
@@ -32,4 +51,4 @@
             border-color: white
             border-radius: 30px
             text-transform: capitalize
-            font-size: 20px
+            font-size: 15px
