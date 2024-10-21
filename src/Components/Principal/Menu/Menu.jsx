@@ -9,7 +9,7 @@ import Desert from '../../Img/desert.jpg';
 function Menu() {
     return (
         <>
-            <section className='menu'>
+            <section className='menu' id='Menu'>
                 <div className="titulo">
                     <h1 className="h1">Menú</h1>
                 </div>

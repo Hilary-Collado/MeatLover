@@ -5,7 +5,7 @@ import Fondo from '../../Img/FondoAboutUs.jpg';
 function AboutUs() {
     return (
         <>
-            <section className="aboutUs">    
+            <section className="aboutUs" id="AboutUs">    
                 <div className="container">
                     <img src={Fondo} alt="" className="fondoAboutUs" />
                     {/* <div className="img">

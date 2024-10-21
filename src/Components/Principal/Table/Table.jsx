@@ -5,7 +5,7 @@ import BookTable from '../../Img/wine.jpg'
 function Table() {
     return (
         <>
-            <section className="table">
+            <section className="table" id="Table">
                 <div className="container">
                     <img src={BookTable} className="bookTable" alt="" />
 
