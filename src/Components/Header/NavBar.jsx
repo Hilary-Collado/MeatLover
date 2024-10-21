@@ -10,21 +10,21 @@ function NavBar() {
         <>
             <nav className="navBar" >
                 <div className="logo">
-                    <p className="meatLover"><span className="meat">Meat</span><br />Lover</p>
+                <ScrollLink className="itemsLink" to='Header' smooth={true} duration={800}><p className="meatLover"><span className="meat">Meat</span><br />Lover</p></ScrollLink>
                 </div>
 
                 <ul className="navbarItem">
                     <li className="item">
-                        <ScrollLink className="itemsLink" to='#AboutUs'>About Us</ScrollLink>
+                        <ScrollLink className="itemsLink" to='AboutUs' smooth={true} duration={800}>About Us</ScrollLink>
                     </li>
                     <li className="item">
-                        <ScrollLink className="itemsLink" to='#Menu'>Menu</ScrollLink>
+                        <ScrollLink className="itemsLink" to='Menu' smooth={true} duration={800}>Menu</ScrollLink>
                     </li>
                     <li className="item">
-                        <ScrollLink className="itemsLink" to='#Events'>Events</ScrollLink>
+                        <ScrollLink className="itemsLink" to='Events' smooth={true} duration={1000}>Events</ScrollLink>
                     </li>
                     <li className="item">
-                        <ScrollLink className="itemsLink" to='#Table'>Reservations</ScrollLink>
+                        <ScrollLink className="itemsLink" to='Table' smooth={true} duration={1000}>Reservations</ScrollLink>
                     </li>
                     <li className="item">
                         <ScrollLink className="itemsLink" to='/'>Contact</ScrollLink>

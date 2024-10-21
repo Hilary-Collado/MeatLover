@@ -6,7 +6,7 @@ import FondoEvents from '../../Img/wine.jpg';
 function Events() {
     return (
         <>
-            <section className="event" id="Event">
+            <section className="event" id="Events">
                 <div className="container">
                     <img src={FondoEvents} className="fondoEvents" alt="" />
                     <article className="article">

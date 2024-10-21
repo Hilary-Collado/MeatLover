@@ -6,7 +6,7 @@ import NavBar from './NavBar';
 function Header() {
     return (
         <>
-            <header className="header background" >
+            <header className="header background" id="Header">
                 <NavBar/>
                 <div className="meatInfo">
                     <p><span className="letThere">Let there</span><br />be meat</p>
@@ -23,12 +23,3 @@ function Header() {
 
 
 export default Header
-
-
-{/* <ul className="navbarItem">
-                    <li className="item"><a className="itemsLink" href="#AboutUs">About Us</a></li>
-                    <li className="item"><a className="itemsLink" href="#Menu">Menu</a></li>
-                    <li className="item"><a className="itemsLink" href="#Event">Events</a></li>
-                    <li className="item"><a className="itemsLink" href="#Table">Reservations</a></li>
-                    <li className="item"><a className="itemsLink" href="src/Components/Forms/Form.jsx">Contact</a></li>
-                </ul> */}
