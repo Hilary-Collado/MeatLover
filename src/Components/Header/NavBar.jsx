@@ -1,7 +1,9 @@
 import React from "react";
 import '../Header/_Header.sass';
 import PeaceOfMeat from '../Img/PeaceOfMeat.jpg';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+
+import { Link as ScrollLink } from 'react-scroll';
 
 function NavBar() {
     return (
@@ -13,19 +15,19 @@ function NavBar() {
 
                 <ul className="navbarItem">
                     <li className="item">
-                        <Link className="itemsLink" to='#AboutUs'>About Us</Link>
+                        <ScrollLink className="itemsLink" to='#AboutUs'>About Us</ScrollLink>
                     </li>
                     <li className="item">
-                        <Link className="itemsLink" to='#Menu'>Menu</Link>
+                        <ScrollLink className="itemsLink" to='#Menu'>Menu</ScrollLink>
                     </li>
                     <li className="item">
-                        <Link className="itemsLink" to='#Events'>Events</Link>
+                        <ScrollLink className="itemsLink" to='#Events'>Events</ScrollLink>
                     </li>
                     <li className="item">
-                        <Link className="itemsLink" to='#Table'>Reservations</Link>
+                        <ScrollLink className="itemsLink" to='#Table'>Reservations</ScrollLink>
                     </li>
                     <li className="item">
-                        <Link className="itemsLink" to='/'>Contact</Link>
+                        <ScrollLink className="itemsLink" to='/'>Contact</ScrollLink>
                     </li>
                 </ul>
 
