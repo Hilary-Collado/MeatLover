@@ -1,37 +1,13 @@
 import React from "react";
 import '../Header/_Header.sass';
 import PeaceOfMeat from '../Img/PeaceOfMeat.jpg';
-import { Link } from 'react-router-dom';
+import NavBar from './NavBar';
 
 function Header() {
     return (
         <>
             <header className="header background" >
-                <nav className="navBar" >
-                    <div className="logo">
-                        <p className="meatLover"><span className="meat">Meat</span><br />Lover</p>
-                    </div>
-
-                    <ul className="navbarItem">
-                        <li className="item">
-                            <Link className="itemsLink" to='#AboutUs'>About Us</Link>
-                        </li>
-                        <li className="item">
-                            <Link className="itemsLink" to='#Menu'>Menu</Link>
-                        </li>
-                        <li className="item">
-                            <Link className="itemsLink" to='#Events'>Events</Link>
-                        </li>
-                        <li className="item">
-                            <Link className="itemsLink" to='#Table'>Reservations</Link>
-                        </li>
-                        <li className="item">
-                            <Link className="itemsLink" to='/'>Contact</Link>
-                        </li>
-                    </ul>
-
-
-                </nav>
+                <NavBar/>
                 <div className="meatInfo">
                     <p><span className="letThere">Let there</span><br />be meat</p>
                 </div>
