@@ -1,7 +1,7 @@
 import React from "react";
 import '../Header/_Header.sass';
 import PeaceOfMeat from '../Img/PeaceOfMeat.jpg';
-// import { Link } from 'react-router-dom';
+
 
 import { Link as ScrollLink } from 'react-scroll';
 

@@ -14,7 +14,7 @@ function App() {
     <>
       <section className="section">
         {/* <Header /> */}
-        <section className="section" id='AboutUs'><Header /></section>
+        <section className="section" id='Header'><Header /></section>
         <section className="section" id='AboutUs'><AboutUs /></section>
         <section className="section" id='Menu'><Menu /></section>
         <section className="section" id='Events'><Event /></section>
