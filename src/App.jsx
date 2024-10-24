@@ -19,15 +19,15 @@ function App() {
     <>
       <section className="section">
         {/* <Header /> */}
-        {/* <section className="section" id='Header'><Header /></section>
+        <section className="section" id='Header'><Header /></section>
         <section className="section" id='AboutUs'><AboutUs /></section>
         <section className="section" id='Menu'><Menu /></section>
         <section className="section" id='Events'><Event /></section>
         <section className="section" id='Table'><Table /></section>
-        <section className="section" id='Footer'><Footer /></section> */}
+        <section className="section" id='Contact'><Contact /></section>
+        <section className="section" id='Footer'><Footer /></section>
 
-        {/* <section className="section" id='Footer'><Contact /></section> */}
-        <Contact/>
+        {/* <Contact/> */}
 
       </section>
 

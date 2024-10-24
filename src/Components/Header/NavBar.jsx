@@ -27,7 +27,7 @@ function NavBar() {
                         <ScrollLink className="itemsLink" to='Table' smooth={true} duration={1000}>Reservations</ScrollLink>
                     </li>
                     <li className="item">
-                        <ScrollLink className="itemsLink" to='/'>Contact</ScrollLink>
+                        <ScrollLink className="itemsLink" to='Contact' smooth={true} duration={1000}>Contact</ScrollLink>
                     </li>
                 </ul>
 
