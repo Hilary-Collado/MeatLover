@@ -2,7 +2,7 @@ import React from "react";
 import './_Table.sass';
 import BookTable from '../../Img/restaurant.jpg'
 import Map from '../../Img/Map.jpg'
-import BookForm from '../../Forms/Form'
+// import BookForm from '../../Forms/Form'
 
 import { Link } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ function Table() {
 
                     <div className="overlay">
                         <h2 className="h2">Book your table</h2>
-                        <button className="button" onClick={BookForm}>online booking</button>
+                        <button className="button">online booking</button>
                     </div>
                 </div>
                 {/* </div> */}
