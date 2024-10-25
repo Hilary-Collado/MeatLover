@@ -12,6 +12,7 @@ function Contact() {
 
                 <div className="Container">
                     <form action="" method="get" id="form" className="formContact">
+                        <h1 className="h1">Contact</h1>
                         <div className="col">
                             <div className="items name">
                                 <label htmlFor="name">Nombre</label>
@@ -20,10 +21,14 @@ function Contact() {
 
                             <div className="items cellphone">
                                 <label htmlFor="cellphone">Telefono</label>
-                                <input type="text" name="cellphone" id="cellphone" className="input inputCellphone" />
+                                <input type="number" name="cellphone" id="cellphone" className="input inputCellphone" />
                             </div>
                         </div>
-                        <div className="col"> 
+                        <div className="col col-2">
+                            <div className="items email">
+                                <label htmlFor="cellphone">Email</label>
+                                <input type="email" name="email" id="email" className="input inputEmail" />
+                            </div>
                             <div className="items message">
                                 <label htmlFor="message">Mensaje</label>
                                 <textarea name="message" id="message" className="input inputMessage" rows="10"></textarea>
@@ -35,7 +40,7 @@ function Contact() {
                     </form>
                 </div>
 
-                <Footer />
+                {/* <Footer /> */}
             </section>
 
         </>
