@@ -8,6 +8,7 @@ import Event from './Components/Principal/Events/Events';
 import Footer from './Components/Footer/Footer';
 import Table from './Components/Principal/Table/Table';
 import Contact from './Components/Forms/Contact/Contact';
+import OnlineBooking from './Components/Forms/OnlineBooking/OnlineBooking';
 
 
 // import { BrowserRouter as Router } from 'react-router-dom';
@@ -19,15 +20,15 @@ function App() {
     <>
       <section className="section">
         {/* <Header /> */}
-        <section className="section" id='Header'><Header /></section>
+        {/* <section className="section" id='Header'><Header /></section>
         <section className="section" id='AboutUs'><AboutUs /></section>
         <section className="section" id='Menu'><Menu /></section>
         <section className="section" id='Events'><Event /></section>
         <section className="section" id='Table'><Table /></section>
         <section className="section" id='Contact'><Contact /></section>
-        <section className="section" id='Footer'><Footer /></section>
+        <section className="section" id='Footer'><Footer /></section> */}
 
-        {/* <Contact/> */}
+        <OnlineBooking/>
 
       </section>
 
